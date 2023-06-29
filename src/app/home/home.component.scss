@@ -1,0 +1,31 @@
+.titulo-hero {
+    color: white;
+    font-weight: 800;
+    line-height: 1;
+    position: absolute;
+    top: 17svh;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.taza-bg {
+    position: absolute;
+    top: -5svh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9;
+    transform: rotate(5deg);
+
+}
+
+.weird-hero {
+    padding-top: 25svh;
+    line-height: 1;
+    padding-inline: 5svw;
+}
