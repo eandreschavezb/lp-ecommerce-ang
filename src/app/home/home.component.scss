@@ -2,30 +2,113 @@
     color: white;
     font-weight: 800;
     line-height: 1;
-    position: absolute;
-    top: 17svh;
+    position: relative;
+    font-size: 4em;
+    top: -5svh;
     z-index: 10;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(46, 46, 46));
 
 }
 
 .taza-bg {
-    position: absolute;
-    top: -5svh;
+    position: relative;/* 
+    top: -10svh; */
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     z-index: 9;
-    transform: rotate(5deg);
+    transform: rotate(0deg);
 
 }
 
-.weird-hero {
-    padding-top: 25svh;
-    line-height: 1;
-    padding-inline: 5svw;
+.weird-hero {/* 
+    padding-top: 25svh; */
+    line-height: 1;/* 
+    padding-inline: 5svw; */
+    font-weight: 400;
+    position: relative;
+}
+
+.text-muteado {
+    color: rgb(71, 71, 71);
+}
+
+.btn-github {
+    background-color: rgb(218, 168, 5);
+    border: none;
+}
+
+/* .cerda {
+    margin-bottom: 10svh;
+} */
+
+@media (max-width: 767px) {
+    .weird-hero {
+        padding-top: 30svh;
+        line-height: 1;
+        padding-inline: 5svw;
+        font-weight: 400;
+    }
+    .taza-bg {
+        position: relative;
+        top: -15svh;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 9;
+        transform: rotate(0deg);
+    
+    }
+    .titulo-hero {
+        color: white;
+        font-weight: 600;
+        line-height: 1;
+        position: relative;
+        top: 10svh;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .weird-hero {
+        padding-top: 23svh;
+        line-height: 1;
+        padding-inline: 5svw;
+        font-weight: 400;
+    }
+    .taza-bg {
+        position: relative;
+        top: -5svh;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 9;
+        transform: rotate(0deg);
+    
+    }
+    .titulo-hero {
+        color: white;
+        font-weight: 800;
+        line-height: 1;
+        position: relative;
+        top: 13svh;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 5svw;
+        padding-right: 5svw;
+    }
 }
