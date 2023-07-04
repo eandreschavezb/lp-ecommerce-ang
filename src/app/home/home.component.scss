@@ -3,7 +3,7 @@
     font-weight: 800;
     line-height: 1;
     position: relative;
-    font-size: 4em;
+    font-size: 2.5em;
     top: -5svh;
     z-index: 10;
     left: 0;
@@ -39,24 +39,23 @@
 }
 
 .btn-github {
-    background-color: rgb(218, 168, 5);
+    position: relative;
+    top: 0svh;
     border: none;
 }
 
-/* .cerda {
-    margin-bottom: 10svh;
-} */
+
 
 @media (max-width: 767px) {
     .weird-hero {
-        padding-top: 30svh;
+        position: relative;
+        top: -12svh;
         line-height: 1;
-        padding-inline: 5svw;
         font-weight: 400;
     }
     .taza-bg {
         position: relative;
-        top: -15svh;
+        top: -12svh;
         left: 0;
         right: 0;
         margin-left: auto;
@@ -70,21 +69,35 @@
         font-weight: 600;
         line-height: 1;
         position: relative;
-        top: 10svh;
+        top: -15svh;
         z-index: 10;
         left: 0;
         right: 0;
         margin-left: auto;
         margin-right: auto;
     }
+
+    .container .form-group {
+        position: relative;
+        top: -7svh;
+    }
+    .btn-github {
+        position: relative;
+        top: -8svh;
+        border: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
     .weird-hero {
-        padding-top: 23svh;
+        padding-top: 0svh;
         line-height: 1;
-        padding-inline: 5svw;
         font-weight: 400;
+    }
+    .btn-github {
+        position: relative;
+        top: 5svh;
+        border: none;
     }
     .taza-bg {
         position: relative;
@@ -102,7 +115,7 @@
         font-weight: 800;
         line-height: 1;
         position: relative;
-        top: 13svh;
+        top: -8svh;
         z-index: 10;
         left: 0;
         right: 0;
