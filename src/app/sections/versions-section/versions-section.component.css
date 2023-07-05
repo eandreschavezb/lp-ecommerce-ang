@@ -1,0 +1,21 @@
+.titulo-hero {
+    color: #174d17;
+    text-align: center;
+    font-size: 2.75em;
+    font-weight: 800;
+    line-height: 0.9;
+    padding-left: 6svw;
+    padding-right: 6svw;
+
+}
+
+.subtitulo-hero {
+    color: #2b382b;
+    text-align: center;
+    font-size: 1.75em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-weight: 600;
+    line-height: 5;
+
+}

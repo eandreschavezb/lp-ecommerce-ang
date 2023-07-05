@@ -3,11 +3,12 @@
 } */
 
 .card-titties {
+    font-size: 1.5em;
     font-weight: 800;
 }
 
 .titulo-hero-secciones {
-    color: #033329;
+    color: #174d17;
     text-align: center;
     font-size: 2.75em;
     font-weight: 800;
@@ -20,6 +21,34 @@
     margin-bottom: 5svh;
 }
 
+.titulo-hero {
+    color: white;
+    text-align: center;
+    font-size: 2.75em;
+    font-weight: 800;
+    z-index: 10;
+    line-height: 0.9;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+.subtitulo-hero {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    z-index: 10;
+    line-height: 0.9;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+
 .titulo3eraseccion {
     line-height: 1;
 }
@@ -27,6 +56,16 @@
 .text-compania {
     line-height: 1.2;
 }
+
+.padding-secciones {
+    padding-top: 10svh;
+}
+
+.descriptchon {
+    font-size: 1.2em;
+    line-height: 1.1;
+}
+
 
 @media (max-width: 767px) {
     .titulo-hero-secciones {
@@ -41,6 +80,9 @@
         flex-direction: row;
         justify-content: center;
         margin-bottom: 5svh;
+    }
+    .padding-secciones {
+        padding-top: 5svh;
     }
 }
 

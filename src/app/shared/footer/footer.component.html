@@ -1,5 +1,5 @@
 <footer class="footer" [ngClass]="{'has-cards': getPath()!=='/user-profile' && getPath()!=='/register' && getPath()!=='/login'}">
-  <div class="container container-lg" *ngIf="getPath()!=='/user-profile' && getPath()!=='/register' && getPath()!=='/login'">
+<!--   <div class="container container-lg" *ngIf="getPath()!=='/user-profile' && getPath()!=='/register' && getPath()!=='/login'">
     <div class="row">
       <div class="col-md-6 mb-5 mb-md-0">
         <div class="card card-lift--hover shadow border-0">
@@ -16,12 +16,15 @@
         </div>
       </div>
     </div>
+  </div> -->
+  <div class="container container-lg" style="height: 13svh;">
+    
   </div>
   <div class="container">
-    <div class="row row-grid align-items-center" [ngClass]="{'my-md': getPath()!=='/user-profile' && getPath()!=='/register' && getPath()!=='/login', 'mb-5':getPath()==='/user-profile' || getPath()==='/register' || getPath()==='/login'}">
+    <div class="row row-grid align-items-center" style="margin-top: 10svh; margin-bottom: 5svh;">    <!-- [ngClass]="{'my-md': getPath()!=='/user-profile' && getPath()!=='/register' && getPath()!=='/login', 'mb-5':getPath()==='/user-profile' || getPath()==='/register' || getPath()==='/login'}" -->
       <div class="col-lg-6">
-        <h3 class="text-primary font-weight-light mb-2">Thank you for supporting us!</h3>
-        <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
+        <h3 class="titulo-hero">MASTERSHOPec</h3>
+        <h4 class="subtitulo-hero">Contáctanos a través de nuestros canales digitales.</h4>
       </div>
       <div class="col-lg-6 text-lg-center btn-wrapper">
         <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" ngbTooltip="Follow us">
@@ -38,8 +41,7 @@
         </a>
       </div>
     </div>
-    <hr>
-    <div class="row align-items-center justify-content-md-between">
+<!--     <div class="row align-items-center justify-content-md-between">
       <div class="col-md-6">
         <div class="copyright">
           &copy; {{test | date: 'yyyy'}}
@@ -62,6 +64,6 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
   </div>
 </footer>
