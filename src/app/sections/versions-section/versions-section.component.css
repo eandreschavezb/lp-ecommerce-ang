@@ -15,7 +15,42 @@
     font-size: 1.75em;
     margin-top: 3em;
     margin-bottom: 3em;
-    font-weight: 600;
-    line-height: 5;
+    font-weight: 300;
+    line-height: 1;
+    
+
+}
+
+
+@media (max-width: 480px) {
+    .titulo-hero {
+        color: #174d17;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 800;
+        line-height: 0.9;
+        padding-left: 6svw;
+        padding-right: 6svw;
+    
+    }
+
+    .subtitulo-hero {
+        color: #2b382b;
+        text-align: center;
+        font-size: 1.75em;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        font-weight: 300;
+        line-height: 1;
+    
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
 
 }

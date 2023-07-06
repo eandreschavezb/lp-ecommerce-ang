@@ -6,3 +6,37 @@
     line-height: 0.9;
 
 }
+
+.descriptchon {
+    font-size: 1.2em;
+    line-height: 1.1;
+    padding-left: 8svw;
+    padding-right: 8svw;
+}
+
+@media (max-width: 480px) {
+    .descriptchon {
+        font-size: 1.2em;
+        line-height: 1.1;
+        padding-left: 1svw;
+        padding-right: 1svw;
+    } 
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .descriptchon {
+        font-size: 1.2em;
+        line-height: 1.1;
+        padding-left: 15svw;
+        padding-right: 15svw;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .descriptchon {
+        font-size: 1.2em;
+        line-height: 1.1;
+        padding-left: 15svw;
+        padding-right: 15svw;
+    }
+}
