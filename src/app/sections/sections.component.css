@@ -66,10 +66,15 @@
     line-height: 1.1;
 }
 
+.padding-for-cards {
+    padding-top: 4.5svh;
+    padding-bottom: 4.5svh;
+}
+
 
 @media (max-width: 767px) {
     .titulo-hero-secciones {
-        color: #F4A038;
+        color: #174d17;
         text-align: center;
         font-size: 2.5em;
         font-weight: 800;
@@ -84,11 +89,16 @@
     .padding-secciones {
         padding-top: 5svh;
     }
+    .padding-for-cards {
+        padding-top: 2.5svh;
+        padding-bottom: 2.5svh;
+    }
+    
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
     .titulo-hero-secciones {
-        color: #F4A038;
+        color: #174d17;
         text-align: center;
         font-size: 3em;
         font-weight: 900;
@@ -99,6 +109,10 @@
         flex-direction: row;
         justify-content: center;
         margin-bottom: 5svh;
+    }
+    .padding-for-cards {
+        padding-top: 3.25svh;
+        padding-bottom: 3.25svh;
     }
 }
 

@@ -1,7 +1,7 @@
 .titulo-hero {
     color: white;
     font-weight: 800;
-    line-height: 1;
+    line-height: 0.9;
     position: relative;
     font-size: 4.5em;
     top: -15svh;
@@ -30,9 +30,10 @@
     padding-top: 25svh; */
     line-height: 1;/* 
     padding-inline: 5svw; */
+    font-size: 2em;
     font-weight: 400;
     position: relative;
-    top: -15svh;
+    top: -11svh;
 }
 
 .text-muteado {
@@ -40,21 +41,22 @@
     padding-top: 0.9svh;
 }
 
+.container .form-group {
+    position: relative;
+    top: -5svh;
+}
 .btn-github {
     position: relative;
-    top: 0svh;
+    top: -5svh;
     border: none;
 }
 
-/* .doritos {
-    bottom: -2px;
-} */
 
 
-
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .weird-hero {
         position: relative;
+        font-size: 1.5em;
         top: -12svh;
         line-height: 1;
         font-weight: 400;
@@ -95,15 +97,65 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 481px) and (max-width: 768px) {
+
+    /* EMPIEZAN ESTILOS COPIADOS */
+
     .weird-hero {
-        padding-top: 0svh;
+        position: relative;
+        top: -10svh;
         line-height: 1;
+        font-size: 1.75em;
         font-weight: 400;
+    }
+    .taza-bg {
+        position: relative;
+        top: -12svh;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 9;
+        transform: rotate(0deg);
+    }
+    .titulo-hero {
+        color: white;
+        font-size: 4.5em;
+        font-weight: 600;
+        line-height: 1;
+        position: relative;
+        top: -12svh;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container .form-group {
+        position: relative;
+        top: -3svh;
     }
     .btn-github {
         position: relative;
-        top: 5svh;
+        top: -3svh;
+        border: none;
+    }
+
+
+    /* TERMINAN ESTILOS COPIADOS */
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .weird-hero {
+/*         padding-top: 20svh; */
+        line-height: 1;
+        font-weight: 400;
+        top: -8svh;
+    }
+    .btn-github {
+        position: relative;
+        top: 0svh;
         border: none;
     }
     .taza-bg {
