@@ -4,7 +4,7 @@
     line-height: 1;
     position: relative;
     font-size: 4.5em;
-    top: -5svh;
+    top: -15svh;
     z-index: 10;
     left: 0;
     right: 0;
@@ -15,8 +15,8 @@
 }
 
 .taza-bg {
-    position: relative;/* 
-    top: -10svh; */
+    position: relative;
+    top: -10svh;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -32,6 +32,7 @@
     padding-inline: 5svw; */
     font-weight: 400;
     position: relative;
+    top: -15svh;
 }
 
 .text-muteado {
@@ -51,7 +52,7 @@
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .weird-hero {
         position: relative;
         top: -12svh;
@@ -71,6 +72,7 @@
     }
     .titulo-hero {
         color: white;
+        font-size: 2.5em;
         font-weight: 600;
         line-height: 1;
         position: relative;
@@ -93,7 +95,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .weird-hero {
         padding-top: 0svh;
         line-height: 1;
