@@ -1,11 +1,3 @@
-<!-- <app-buttons-section></app-buttons-section>
-<app-inputs-section></app-inputs-section>
-<app-crs-section></app-crs-section> -->
-<!-- <app-navigation-section></app-navigation-section>
- -->
- 
- 
- 
  
  
  <section class="section section-components section-lg padding-secciones"> <!--  mt--100 modificar aqui la altura de contenedor blanco -->
@@ -20,7 +12,7 @@
                   <div class="d-flex flex-column">  <!-- icon icon-shape icon-shape-secondary rounded-circle mb-4 -->
                     <div class="d-flex flex-row">
                     <i class="ni ni-check-bold" style="font-size: 2em; padding-right: 0.5em; color: #174d17;"></i>
-                    <h6 class="text-secondary card-titties text-uppercase">Transacciones seguras</h6>
+                    <h6 class="text-secondary card-titles text-uppercase">Transacciones seguras</h6>
                     </div>
                     <div class="">
                     <p class="descriptchon mt-3">Siéntete seguro al realizar tus ventas a través de la plataforma de pagos DATAFAST&reg;.</p>
@@ -38,7 +30,7 @@
                   <div class="d-flex flex-column">  <!-- icon icon-shape icon-shape-secondary rounded-circle mb-4 -->
                     <div class="d-flex flex-row">
                     <i class="ni ni-favourite-28" style="font-size: 2em; padding-right: 0.5em; color: #174d17;"></i>
-                    <h6 class="text-secondary card-titties text-uppercase">Ventas en RRSS</h6>
+                    <h6 class="text-secondary card-titles text-uppercase">Ventas en RRSS</h6>
                     </div>
                     <div class="">
                     <p class="descriptchon mt-3">Aumenta tus ventas al tener una presencia unificada en todas las plataformas conocidas.</p>
@@ -867,20 +859,17 @@
   <div class="shape shape-style-1 shape-default">
     <span></span>
     <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
+    <span class="d-none d-md-block"></span>
+    <span class="d-none d-md-block"></span>
+    <span class="d-none d-md-block"></span>
+
   </div>
   <div class="container py-md">
     <div class="row row-grid justify-content-between align-items-center">
       <div class="col-lg-6">
         <h3 class="titulo-hero">Registro fácil y rápido</h3>
           <p class="subtitulo-hero">Adaptable a múltiples negocios</p>
-        
-        <p class="texto-sombra">¿Tienes más de un negocio y los tienes todos bajos diferentes dominios? En nuestra plataforma podrás unir diferentes negocios y consolidarolos bajo un mismo propietario para simplificar tus operaciones diaras.</p>
+        <p class="texto-sombra">¿Tienes varios negocios? Puedes crear tiendas individuales y consolidarlas en una misma cuenta para un manejo fácil y un precio conveniente.</p>
         <div class="btn-wrapper">
           <a [routerLink]="['/login']" class="btn btn-success">Registrar negocio</a>
           <a [routerLink]="['/register']" class="btn btn-white">Conocer sobre planes múltiples</a>
@@ -910,7 +899,7 @@
             </div>
             <div class="card-body px-lg-5 py-lg-5">
               <div class="text-center text-muted mb-4">
-                <small>Ingresa las credenciales de tu tienda.</small>
+                <small>Ingresa tus credenciales.</small>
               </div>
               <form role="form">
                 <div class="form-group mb-3" [ngClass]="{'focused':focus===true}">

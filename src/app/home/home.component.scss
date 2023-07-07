@@ -26,10 +26,8 @@
 
 }
 
-.weird-hero {/* 
-    padding-top: 25svh; */
-    line-height: 1;/* 
-    padding-inline: 5svw; */
+.weird-hero {
+    line-height: 1;
     font-size: 2em;
     font-weight: 400;
     position: relative;
@@ -148,7 +146,6 @@
 
 @media (min-width: 769px) and (max-width: 1023px) {
     .weird-hero {
-/*         padding-top: 20svh; */
         line-height: 1;
         font-weight: 400;
         top: -8svh;
