@@ -12,5 +12,32 @@
     text-align: start;
     font-size: 1.75em;
     font-weight: 600;
+}
 
+.altura-footer {
+    height: 30svh;
+}
+
+@media (max-width: 480px) {
+    .altura-footer {
+        height: 15svh;
+    }
+    .subtitulo-hero {
+        color: #999999;
+        text-align: start;
+        font-size: 1.35em;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .altura-footer {
+        height: 15svh;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .altura-footer {
+        height: 15svh;
+    }
 }
