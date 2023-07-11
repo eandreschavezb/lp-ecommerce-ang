@@ -1,0 +1,50 @@
+.titulo-hero {
+    font-size: 4.5em;
+    color: white;
+    filter: drop-shadow(0 0 0.75rem rgb(46, 46, 46));
+
+}
+
+.taza-bg {
+    position: relative;
+    top: -10svh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 9;
+    transform: rotate(0deg);
+
+}
+
+.weird-hero {
+    line-height: 1;
+    font-size: 2em;
+    font-weight: 400;
+    position: relative;
+    top: -11svh;
+}
+
+.text-muteado {
+    color: rgb(235, 235, 235);
+    padding-top: 0.9svh;
+}
+
+.container .form-group {
+    position: relative;
+    top: -5svh;
+}
+.btn-github {
+    background-color: #f09964;
+    position: relative;
+    top: -5svh;
+    border: none;
+}
+
+.violator {
+    position: relative;
+    bottom: 32svh;
+    width: 100svw;
+    height: 5svw;
+    z-index: -10000;
+}

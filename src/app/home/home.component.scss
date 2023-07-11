@@ -4,8 +4,8 @@
     line-height: 0.9;
     position: relative;
     font-size: 4.5em;
-    top: -15svh;
-    z-index: 10;
+    top: -0svh;
+    z-index: 99999999999;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -16,7 +16,7 @@
 
 .taza-bg {
     position: relative;
-    top: -10svh;
+    top: -75svh;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -27,11 +27,18 @@
 }
 
 .weird-hero {
-    line-height: 1;
-    font-size: 2em;
-    font-weight: 400;
+    color: white;
+    font-weight: 300;
+    line-height: 0.9;
     position: relative;
-    top: -11svh;
+    font-size: 2.5em;
+    top: -75svh;
+    z-index: 99999999999;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(46, 46, 46));
 }
 
 .text-muteado {
@@ -48,6 +55,30 @@
     position: relative;
     top: -5svh;
     border: none;
+}
+
+.violator {
+    position: relative;
+    bottom: 32svh;
+    width: 100svw;
+    height: 5svw;
+    z-index: -10000;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 

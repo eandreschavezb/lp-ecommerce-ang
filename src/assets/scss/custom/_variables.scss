@@ -121,7 +121,7 @@ $shape-colors: map-merge((
   "default":      #495d32,
   "primary":      #33ff3d,
   "secondary":    #24b47e,
-  "neutral":      #e9ecef,
+  "neutral":      #7cabdb,
   "blue-gray":    #b2cbe1,
 
 ), $shape-colors);
@@ -140,9 +140,9 @@ $shapes-primary-colors: map-merge((
 
 $shapes-default-colors: () !default;
 $shapes-default-colors: map-merge((
-  "step-1-gradient-bg":         #033329,
-  "step-2-gradient-bg":         #1a8872,
-  "step-3-gradient-bg":         #337e6f,
+  "step-1-gradient-bg":         #202020,
+  "step-2-gradient-bg":         #292525,
+  "step-3-gradient-bg":         #7a7a7a,
   "span-1-bg":                  #7795f8,
   "span-2-bg":                  #7b9aff,
   "span-3-bg":                  #6f8ff8,
@@ -197,7 +197,7 @@ $love-color: $red !default;
 
 // Body
 
-$body-bg: #F2EDE6 !default; /* cambiar aqui el color del fondo total */
+$body-bg: #242424 !default; /* cambiar aqui el color del fondo total */
 $body-color: $gray-700 !default;
 
 
